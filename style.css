@@ -1,0 +1,26 @@
+.baslik-1 {
+  color: red;
+  text-align: center;
+}
+
+.baslik-2 {
+  color: purple;
+  text-align: center;
+}
+.baslik-3 {
+  color: orange;
+}
+
+.article-1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.article-2 {
+  text-align: center;
+  list-style-position: inside;
+}
+
+.card-body h5 {
+    color: purple;
+}

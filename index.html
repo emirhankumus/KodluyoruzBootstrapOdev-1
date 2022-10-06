@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Ödev 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body style="background-color: #e9ecef">
+    <!-- Navbar Kısmı -->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: red" href="index.html"
+          ><strong>Müzik Dükkanım</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ürünlerimiz.html">Ürünlerimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- İçerik kısmı -->
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="article-1">
+              <h1 class="baslik-1">Merhaba!</h1>
+              <p>
+                Müzik Dükkanım sitemize hoşgeldiniz! Bu sitede çeşitli müzik
+                aletlerini bulabilirsiniz. Uygun fiyatlarımız ve kaliteli
+                ürünlerimiz için
+                <a href="ürünlerimiz.html">Ürünlerimiz</a> sayfamızı ziyaret
+                edebilirsiniz.
+              </p>
+              <hr />
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="article-2">
+                  <h3 class="baslik-3">Sitemizde Bulunan Müzik Aletleri</h3>
+                  <ul>
+                    <li>Gitar</li>
+                    <li>Davul</li>
+                    <li>Piyano</li>
+                    <li>Keman</li>
+                  </ul>
+                  <a href="hakkimizda.html"
+                    ><button type="button" class="btn btn-primary">
+                      Hakkımızda
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap.js"></script>
+  </body>
+</html>

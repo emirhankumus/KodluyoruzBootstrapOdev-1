@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Ödev 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+  </head>
+  <body style="background-color: #e9ecef">
+    <!-- Navbar Kısmı -->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: red" href="index.html"
+          ><strong>Müzik Dükkanım</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Anasayfa</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ürünlerimiz.html">Ürünlerimiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="baslik-2 mt-4">Ürünlerimiz</h1>
+    <!-- içerik kısmı -->
+    <div class="container">
+      <!-- 1.satır -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 my-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-1.jpg"
+              class="card-img-top"
+              alt="elektro-gitar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fender masterbuilt 59 stratocaster</h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">8800 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-2.png"
+              class="card-img-top img-fluid"
+              alt="klasik-gitar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gibson 1959 les paul standard</h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">4700 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-3.jpg"
+              class="card-img-top"
+              alt="admira-klasik-gitar"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Admira juanita klasik gitar standart</h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">3000 ₺</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. satır -->
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-4.jpg"
+              class="card-img-top"
+              alt="trampet-davul"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dw drum workshop satin 5 klasik</h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">16000 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img src="img/resim-5.jpg" class="card-img-top" alt="Trampet" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Tama imperialstar 22 hairline blue
+              </h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">18250 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img src="img/resim-6.jpg" class="card-img-top" alt="bateri" />
+            <div class="card-body">
+              <h5 class="card-title">
+                Pearl MDT764P/C701 Midtown Series Shell Pack 
+              </h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">23000 ₺</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.satır -->
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-7.jpg"
+              class="card-img-top img-fluid"
+              alt="keman"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Almira CNM4010 4/4 klasik keman</h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">2350 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-8.jpg"
+              class="card-img-top img-fluid"
+              alt="keman"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Stentor 1500 SN/C Student II Keman (3/4)
+              </h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">3400 ₺</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-dark">
+            <img
+              src="img/resim-9.jpg"
+              class="card-img-top img-fluid"
+              alt="keman"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                ROSA 4/4 Keman - Mat Cilalı (rv044m) RV044M
+              </h5>
+              <p class="card-text bg-secondary d-inline p-1 rounded">5750 ₺</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
